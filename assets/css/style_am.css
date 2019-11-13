@@ -1,0 +1,51 @@
+
+@media (max-width: 68rem){
+	.section_menu{
+		display: grid;
+		justify-items: center;
+		margin-left:5%;
+		margin-right: 5%;
+		margin-top: 5rem;
+		grid-gap: 2.5rem; 
+		grid-template-columns: 0.5fr 2fr 0.5fr;
+		grid-template-rows: 25% 12.5% 12.5% 12.5% 12.5% 25%;
+
+
+	}
+
+	.item_menu{
+		font-size: 4rem;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		justify-self:stretch;
+		grid-row-start: auto;
+		grid-column-start: 2;
+
+	}
+
+	.opcao{
+
+	}
+
+	.insert{
+		border-style: solid;
+		border-width: 0.25rem;
+
+
+
+	}
+	.botao{
+		font-size: 4rem;
+		display: flex;
+		text-align: center;
+		align-items: center;
+		justify-self:center;
+		grid-row-start: auto;
+		grid-column-start: 2;
+		text-decoration: none;
+		border-style: solid;
+		border-width: 0.25rem;
+
+	}
+}
