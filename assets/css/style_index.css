@@ -1,19 +1,6 @@
 /* Estilo para a página de categorias */
 
-.img_h{
-	display: flex;
-    justify-content: center;
-    margin-top: 2.5rem;
-    border-radius: 20rem;
-    border-style: solid;
-    border-width: 0.25rem;
-}
-.img_place{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width:100%;
-}
+
 
 .section_menu{
     display: grid;
@@ -82,4 +69,18 @@
 
 
 
+}
+.img_h{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+    width: 60rem;
+    height: 40rem;
+    
+}
+.img_place{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
 }
