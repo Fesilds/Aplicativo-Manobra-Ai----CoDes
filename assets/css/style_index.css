@@ -42,6 +42,17 @@
 
     
 }
+
+.link_estacionar{
+    width: 60rem;
+    height: 20rem;
+    text-decoration: none;
+
+}
+
+.link_estacionar:visited {
+  color: black;
+}
 .retirar{
     display: flex;
     border-style: solid;
