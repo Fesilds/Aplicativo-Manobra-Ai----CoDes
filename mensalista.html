@@ -31,7 +31,7 @@
   <main class="main">
     <figure>
     </figure>
-    <ul class="section_menu">
+        <form class="section_menu">
       <div class="principal">
         <div class="tipo">
           Tipo:
@@ -42,48 +42,47 @@
       </div>
       <div class="item_menu">
         <div class="opcao">
-          Placa:
+          <label>Placa:</label>
         </div>
         <div class="insert">
-          FLW-5045
+          <input type="text" name="prisma" placeholder="Placa do Carro..." pattern="[A-Za-z]{3}[0-9]{4}" value="FLW-5045" readonly>
         </div>
       </div>
       <div class="item_menu">
         <div class="opcao">
-          Prisma:
+          <label>Prisma:</label>
         </div>
         <div class="insert">
-          Mensalista
+          <input type="number" name="prisma" placeholder="Número do Prisma..." pattern="[0-9]{2}">
         </div>
 
       </div>
       <div class="item_menu">
         <div class="opcao">
-          Modelo:
+          <label>Modelo:</label>
         </div>
         <div class="insert">
-          Polo
+          <input type="text" name="prisma" placeholder="Modelo do Carro..." value="Polo" readonly>
         </div>
 
       </div>
       <div class="item_menu">
         <div class="opcao">
-          Tempo de Estadia:
+          <label>Tempo de Estadia:</label>
         </div>
         <div class="insert_time">
-          
+          <input type="time" name="Tempo de Estadia">
         </div>
 
       </div>
       <a class="botao" href=manobrai.html>
-      
-        CONCLUIR
-      
+      <input type="submit" name="CONCLUIR" value="CONCLUIR">
+            
       </a>
       <div>
 
       </div>
-    </ul>
+    </form>
 
 
   </main>
