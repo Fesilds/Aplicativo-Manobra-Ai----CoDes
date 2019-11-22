@@ -20,7 +20,7 @@
     align-items: center;
     justify-content: center;
     border-style: solid;
-    border-width: 1px;
+    border-width: 5px;
     border-color: #000000;
     width: 60rem;
     height: 20rem;
@@ -41,10 +41,20 @@
 .link_estacionar:visited {
   color: black;
 }
+
+
+.link_retirar:visited {
+  color: black;
+}
+.link_retirar{
+    text-decoration: none;
+
+
+}
 .retirar{
     display: flex;
     border-style: solid;
-    border-width: 1px;
+    border-width: 5px;
     text-align: center;
     align-items: center;
     justify-content: center;

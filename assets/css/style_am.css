@@ -33,7 +33,7 @@
 		font-size: 4rem;
 		display: flex;
 		justify-content: space-around;
-
+		
 	}
 
 	.opcao{ 
@@ -42,6 +42,16 @@
 
 	}
 
+	.insert_time{
+		border-style: solid;
+		flex-basis: 1;
+		border-width: 0.25rem;
+		font-family: 'Work Sans', sans-serif;
+		text-align:center;
+		border-radius: 8rem;
+		width: 25%;
+		height: 100%;
+	}
 	.insert{
 		border-style: solid;
 		flex-basis: 1;
@@ -49,7 +59,8 @@
 		font-family: 'Work Sans', sans-serif;
 		text-align:center;
 		border-radius: 8rem;
-		width: 50%
+		width: 50%;
+		height: 100%;
 
 
 
