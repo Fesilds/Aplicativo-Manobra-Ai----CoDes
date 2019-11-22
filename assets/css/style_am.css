@@ -1,54 +1,82 @@
 
 @media (max-width: 68rem){
 	.section_menu{
-		display: grid;
-		justify-items: center;
-		margin-left:5%;
-		margin-right: 5%;
-		margin-top: 5rem;
-		grid-gap: 2.5rem; 
-		grid-template-columns: 0.5fr 2fr 0.5fr;
-		grid-template-rows: 25% 12.5% 12.5% 12.5% 12.5% 25%;
+		display: flex;
+		flex-direction: column;
+
+		justify-content: space-between;
+		height: 70rem;
+
+	}
+	.tipo{
+		font-family: 'Arvo', serif;
+		align-self: center;
+
 
 
 	}
+	.descricao{
+		border-style: solid;
+		border-width: 0.25rem;
+		border-radius: 8rem;
+		font-family: 'Work Sans', sans-serif;
+		text-align: center;
+		width: 75%
 
+	}
+	.principal{
+		font-size: 5rem;
+		display:flex;
+		justify-content: space-around;
+	}
 	.item_menu{
 		font-size: 4rem;
 		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		justify-self:stretch;
-		grid-row-start: auto;
-		grid-column-start: 2;
+		justify-content: space-around;
 
 	}
 
-	.opcao{
+	.opcao{ 
+		font-family: 'Arvo', serif;
+		
 
 	}
 
 	.insert{
 		border-style: solid;
+		flex-basis: 1;
 		border-width: 0.25rem;
+		font-family: 'Work Sans', sans-serif;
+		text-align:center;
+		border-radius: 8rem;
+		width: 50%
 
 
 
 	}
 	.botao{
-		font-size: 4rem;
-		display: flex;
+		font-size: 6rem;
 		text-align: center;
-		align-items: center;
-		justify-self:center;
-		grid-row-start: auto;
-		grid-column-start: 2;
 		text-decoration: none;
 		border-style: solid;
 		border-width: 0.25rem;
+		border-radius: 5rem;
+		width: 35rem;
+		align-self: center;
 
 	}
 	.botao:visited{
 		color: black;
+	}
+	.titles{
+		font-family: 'Arvo', serif;
+
+		font-size: 10rem;
+		display: flex;
+		justify-content: center;
+		margin-top: 2.5rem;
+		margin-bottom: 2.5rem;
+		text-align: center;
+
 	}
 }

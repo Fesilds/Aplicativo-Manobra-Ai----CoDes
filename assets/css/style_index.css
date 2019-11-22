@@ -25,7 +25,8 @@
     width: 60rem;
     height: 20rem;
     background-color:#ffffff;
-    font-size: 13rem;
+    font-size: 11rem;
+    font-family: 'Arvo', serif;
 
     
 }
@@ -52,7 +53,7 @@
     height: 10rem;
     background-color:#ffffff;
     font-size: 8rem;
-    
+    font-family: 'Arvo', serif;
 }
 
 .estacionar{
