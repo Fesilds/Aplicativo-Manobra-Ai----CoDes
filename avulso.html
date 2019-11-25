@@ -31,7 +31,7 @@
   <main class="main">
     <figure>
     </figure>
-    <form class="section_menu">
+    <form class="section_menu" action="estacioneaqui.html">
       <div class="principal">
         <div class="tipo">
           Tipo:
@@ -45,7 +45,7 @@
           <label>Placa:</label>
         </div>
         <div class="insert">
-          <input type="text" name="prisma" placeholder="Placa do Carro..." pattern="[A-Za-z]{3}[0-9]{4}">
+          <input type="text" name="prisma" placeholder="Placa do Carro..." pattern="[A-Za-z]{3}[0-9]{4}" required>
         </div>
       </div>
       <div class="item_menu">
@@ -53,7 +53,7 @@
           <label>Prisma:</label>
         </div>
         <div class="insert">
-          <input type="number" name="prisma" placeholder="Número do Prisma..." pattern="[0-9]">
+          <input type="number" name="prisma" placeholder="Número do Prisma..." pattern="[0-9]" required>
         </div>
 
       </div>
@@ -62,7 +62,7 @@
           <label>Modelo:</label>
         </div>
         <div class="insert">
-          <input type="text" name="prisma" placeholder="Modelo do Carro...">
+          <input type="text" name="prisma" placeholder="Modelo do Carro..." required>
         </div>
 
       </div>
@@ -71,13 +71,12 @@
           <label>Tempo de Estadia:</label>
         </div>
         <div class="insert_time">
-          <input type="time" name="Tempo de Estadia">
+          <input type="time" name="Tempo de Estadia" required>
         </div>
 
       </div>
       <a class="botao" href=estacioneaqui.html>
       <input type="submit" name="CONCLUIR" value="CONCLUIR">
-            
       </a>
       <div>
 
