@@ -72,7 +72,7 @@
 	}
 	.titles{
 		font-family: 'Arvo', serif;
-
+		color: #ffffff;
 		font-size: 10rem;
 		display: flex;
 		justify-content: center;
@@ -91,8 +91,9 @@
 		text-align: center;
 		border-radius: 8rem;
 		font-size: 2.5rem;
-		background-color: #ffffff;
+		background-color: #000000;
 		font-family: 'Work Sans', sans-serif;
+		color: #ffffff;
 	}
 	input[type=submit]{
 		font-size: 6rem;
@@ -101,8 +102,16 @@
 		border-style: solid;
 		border-width: 0.25rem;
 		border-radius: 5rem;
-		border-color: black;
+		border-color: #ffffff;
 		width: 35rem;
 		align-self: center;
 		font-family: 'Work Sans', sans-serif;
+	}
+	::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  	color: #ffffff;
+  	opacity: 0.9; /* Firefox */
 }
+
+
+}
+
