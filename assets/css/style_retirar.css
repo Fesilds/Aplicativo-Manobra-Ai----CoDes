@@ -13,6 +13,7 @@
 		border-width: 0.25rem; 
 		text-align: center;
 		flex-grow: 2;
+		color: #ffffff;
 	}
 
 	.box{
@@ -26,12 +27,12 @@
 	
 
 	.box:visited{
-		color: black;
+		color: #ffffff;
 	}
 
 	.titles{
 		font-family: 'Arvo', serif;
-
+		color: #ffffff;
 		font-size: 8rem;
 		display: flex;
 		justify-content: center;

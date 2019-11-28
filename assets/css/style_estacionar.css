@@ -63,14 +63,16 @@
 		border-radius: 5rem;
 		width: 35rem;
 		align-self: center;
+		color: #ffffff;
+
 
 	}
 	.botao:visited{
-		color: black;
+		color: white;
 	}
 	.titles{
 		font-family: 'Arvo', serif;
-
+		color: #ffffff; 
 		font-size: 10rem;
 		display: flex;
 		justify-content: center;
