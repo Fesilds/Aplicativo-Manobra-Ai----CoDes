@@ -24,9 +24,11 @@
     border-color: #ffffff;
     width: 59.5rem;
     height: 20rem;
-    background-color:#43a3e8;
-    font-size: 11rem;
+    background-color:#000000;
+    font-size: 9rem;
+    color: #ffffff;
     font-family: 'Arvo', serif;
+    border-radius: 10rem;
 
 
     
@@ -45,7 +47,7 @@
 
 
 .link_retirar:visited {
-  color: black;
+  color: white;
 }
 .link_retirar{
     text-decoration: none;
@@ -62,9 +64,11 @@
     border-color: #ffffff;
     width: 60rem;
     height: 10rem;
-    background-color:#43a3e8;
-    font-size: 8rem;
+    background-color:#000000;
+    font-size: 6rem;
+    color: #ffffff;
     font-family: 'Arvo', serif;
+    border-radius: 6rem;
 }
 
 .estacionar{

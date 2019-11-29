@@ -51,6 +51,7 @@
 	.insert{
 		font-family: 'Work Sans', sans-serif;
 		text-align:center;
+		margin-top: 1rem;
 	
 		width: 50%;
 		height: 100%;
@@ -82,6 +83,7 @@
 
 
 	}
+
 
 	input{
 		width: 100%;
